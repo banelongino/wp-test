@@ -27,7 +27,7 @@ services:
       MYSQL_USER: '${MYSQL_USER}'
       MYSQL_PASSWORD: '${MYSQL_PASSWORD}'
     volumes:
-      - ./db-data:/var/lib/mysql
+      - /Users/ariannenicole/Documents/Projects/wp-test-db-data:/var/lib/mysql
     networks:
       - wordpress-network
     deploy:
